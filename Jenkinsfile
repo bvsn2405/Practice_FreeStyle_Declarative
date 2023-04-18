@@ -12,9 +12,9 @@ pipeline{
                 echo "it is in test execution"
             }
         }
-        stage ("Test"){
+        stage ("Deploy"){
             steps{
-                echo "it is in test execution"
+                echo "it is in Deploy execution"
             }
         }
     }
